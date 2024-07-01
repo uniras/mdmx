@@ -6,8 +6,10 @@
 * リスト2
 * リスト3
 
-```javascript
+```JavaScript
+import { htmx } from 'htmx';
+
 console.log('Hello, World!');
 ```
 
-<button hx-get="test.html">押してみて</button>
+<button hx-get="test.html" class="btn btn-primary btn-rounded">押してみて</button>
