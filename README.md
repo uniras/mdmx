@@ -13,7 +13,7 @@ Markdown is a format that allows you to create pages by adding simple notations 
 Basically, all you need to do is add a script tag that loads the HTMX library to the template applied when converting Markdown to HTML. HTMX is provided by a CDN, so there is no need to download the file locally and specify the path.
 
 ```html
-<script src="https://unpkg.com/htmx.org@1.5.0" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org@2.0.0" crossorigin="anonymous"></script>
 ```
 
 If the HTMX library is loaded, Markdown is a format that allows HTML tags to be written as they are, so simply writing an HTML tag with the HTMX attributes added will work.
