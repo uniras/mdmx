@@ -1,6 +1,6 @@
-# markdonwのテスト
+# markdonwにHTMXを埋め込むテスト
 
-これはmarkdownのテストです。
+これはmarkdownにHTMXを埋め込んでみるテストです。
 
 * リスト1
 * リスト2
