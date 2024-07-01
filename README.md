@@ -24,7 +24,7 @@ For security reasons, an HTTP server is inevitably required, but we created an e
 
 ```html
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@ For security reasons, an HTTP server is inevitably required, but we created an e
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/default.min.css" crossorigin="anonymous">
     <script src="https://unpkg.com/htmx.org@2.0.0" crossorigin="anonymous"></script>
     <script src="https://uniras.github.io/mdmx/mdmx.js" type="module" crossorigin="anonymous"></script>
-    <title>markdownとHTMXの連携テスト</title>
+    <title>Linkage test between markdown and HTMX</title>
 </head>
 <body>
     <div class="markdown" hx-get="file.md" hx-trigger="load"></div>
